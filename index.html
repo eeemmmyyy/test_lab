@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Vite App</title>
+    <link rel="stylesheet" href="/src/main.scss">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+<header class="header container">
+    <div class="header__inner">
+        <a href="#"><img src="/logo.svg" alt="logo"></a>
+        <div class="header__search">
+            <input class="header__search-btn" type="image" src="/search.svg">
+            <input id="searchInput" class="header__search-input" type="text" placeholder="Поиск">
+            <div class="header__suggestions" id="suggestions"></div>
+        </div>
+        <a href="#"><img class="header__notification" src="/notification.svg" alt="notification"></a>
+    </div>
+</header>
+<section class="call container">
+    <div class="call__inner">
+        <div class="call__top">
+            <img class="call__img" src="/man.svg" alt="mancall">
+            <div class="call__info">
+                <h2 class="call__title">Нужна срочная помощь?</h2>
+                <p class="call__paragraph">Мы на связи в любое время, чтобы помочь вам!</p>
+            </div>
+        </div>
+        <button class="call__btn">Позвонить нам <img src="/call.svg" alt="callicon"></button>
+    </div>
+</section>
+<section class="situations situations--container">
+    <h3 class="situations__head-title">Ситуации наших последних клиентов</h3>
+    <div class="situations__container swiper-container">
+        <div class="situations__slider swiper-wrapper">
+            <div class="situations__slide swiper-slide" style="background-image: url('/slide1.svg');">
+                <h3 class="situations__title">Развод</h3>
+                <p class="situations__paragraph">с нами это легко</p>
+            </div>
+            <div class="situations__slide swiper-slide" style="background-image: url('/slide2.svg');">
+                <h3 class="situations__title">Банкротство</h3>
+                <p class="situations__paragraph">с нами это легко</p>
+            </div>
+            <div class="situations__slide swiper-slide" style="background-image: url('/slide1.svg');">
+                <h3 class="situations__title">Развод</h3>
+                <p class="situations__paragraph">с нами это легко</p>
+            </div>
+            <div class="situations__slide swiper-slide" style="background-image: url('/slide2.svg');">
+                <h3 class="situations__title">Банкротство</h3>
+                <p class="situations__paragraph">с нами это легко</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="consultation container">
+    <div class="consultation__inner">
+        <div class="consultation__rect">
+            <img class="consultation__img" src="/illustration.svg" alt="illustration">
+        </div>
+        <div class="consultation__info">
+            <h1 class="consultation__title">Мы всегда на связи
+                и готовы помочь вам</h1>
+            <h3 class="consultation__paragraph">Готовы проконсультировать вас</h3>
+        </div>
+        <button class="consultation__btn">Мне нужна консультация</button>
+    </div>
+</section>
+<section class="services container">
+    <h2 class="services__head-title">Наши услуги</h2>
+    <div class="services__inner">
+        <div class="services__service">
+            <img src="/service1.svg" alt="service">
+            <h3 class="services__title">Ситуации</h3>
+            <p class="services__paragraph">в судебной практике</p>
+        </div>
+        <div class="services__service">
+            <img src="/service2.svg" alt="service">
+            <h3 class="services__title">Вопрос ответ</h3>
+            <p class="services__paragraph"></p>
+        </div>
+        <div class="services__service">
+            <img src="/service3.svg" alt="service">
+            <h3 class="services__title">Документы</h3>
+            <p class="services__paragraph"></p>
+        </div>
+        <div class="services__service">
+            <img src="/service4.svg" alt="service">
+            <h3 class="services__title">Справочник</h3>
+            <p class="services__paragraph">нужной информации</p>
+        </div>
+    </div>
+</section>
+<section class="news container">
+    <div class="news__head">
+        <h2 class="news__head-title">Новости</h2>
+        <a href="#" class="news__head-a">Читать все</a>
+    </div>
+    <div class="news__inner">
+        <div class="news__card">
+            <img class="news__img" src="/card1.png" alt="">
+            <div class="news__info">
+                <h3 class="news__title">Кредитные организации</h3>
+                <p class="news__paragraph">Банкам нельзя с 1 июля требовать от компаний, ИП и физлиц повышенные
+                    комиссии...</p>
+                <small class="news__date">25 апреля</small>
+            </div>
+        </div>
+        <div class="news__card">
+            <img class="news__img" src="/card2.png" alt="">
+            <div class="news__info">
+                <h3 class="news__title">Кредитные организации</h3>
+                <p class="news__paragraph">Банкам нельзя с 1 июля требовать от компаний, ИП и физлиц повышенные
+                    комиссии...</p>
+                <small class="news__date">25 апреля</small>
+            </div>
+        </div>
+        <div class="news__card">
+            <div class="news__info">
+                <h3 class="news__title">Кредитные организации</h3>
+                <p class="news__paragraph">Банкам нельзя с 1 июля требовать от компаний, ИП и физлиц повышенные
+                    комиссии...</p>
+                <small class="news__date">25 апреля</small>
+            </div>
+        </div>
+    </div>
+
+</section>
+<footer class="footer">
+    <div class="footer__inner">
+        <button class="footer__btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.8484 2.75149C12.6234 2.52652 12.3182 2.40015 12 2.40015C11.6818 2.40015 11.3766 2.52652 11.1516 2.75149L2.75159 11.1515C2.533 11.3778 2.41205 11.6809 2.41478 11.9956C2.41751 12.3102 2.54372 12.6112 2.76621 12.8337C2.9887 13.0562 3.28967 13.1824 3.60431 13.1851C3.91894 13.1878 4.22207 13.0669 4.44839 12.8483L4.79999 12.4967V20.3999C4.79999 20.7181 4.92642 21.0234 5.15146 21.2484C5.3765 21.4735 5.68173 21.5999 5.99999 21.5999H8.39999C8.71825 21.5999 9.02347 21.4735 9.24852 21.2484C9.47356 21.0234 9.59999 20.7181 9.59999 20.3999V17.9999C9.59999 17.6816 9.72642 17.3764 9.95146 17.1514C10.1765 16.9263 10.4817 16.7999 10.8 16.7999H13.2C13.5182 16.7999 13.8235 16.9263 14.0485 17.1514C14.2736 17.3764 14.4 17.6816 14.4 17.9999V20.3999C14.4 20.7181 14.5264 21.0234 14.7515 21.2484C14.9765 21.4735 15.2817 21.5999 15.6 21.5999H18C18.3182 21.5999 18.6235 21.4735 18.8485 21.2484C19.0736 21.0234 19.2 20.7181 19.2 20.3999V12.4967L19.5516 12.8483C19.7779 13.0669 20.081 13.1878 20.3957 13.1851C20.7103 13.1824 21.0113 13.0562 21.2338 12.8337C21.4563 12.6112 21.5825 12.3102 21.5852 11.9956C21.5879 11.6809 21.467 11.3778 21.2484 11.1515L12.8484 2.75149V2.75149Z"
+                      fill="#222222" fill-opacity="0.6"/>
+            </svg>
+            Главная
+        </button>
+        <button class="footer__btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.99902 20.5098L5.99901 20.51H6.012H20.5V21.51H6C5.49363 21.51 4.85733 21.339 4.35829 20.9435C3.87728 20.5623 3.5 19.956 3.5 19.01V5.01001C3.5 4.06404 3.87728 3.45768 4.35829 3.07651C4.85733 2.68105 5.49363 2.51001 6 2.51001H19C19.8269 2.51001 20.5 3.18315 20.5 4.01001V17.5H20.049H20.0351L20.0213 17.5008C19.9927 17.5024 19.9674 17.506 19.9464 17.51H6.011V17.5099L5.99863 17.5102C5.75202 17.5163 5.43689 17.5623 5.15201 17.7321C4.84708 17.9139 4.61631 18.2148 4.53322 18.6414L4.53319 18.6414L4.53216 18.647C4.51176 18.7586 4.5 18.8787 4.5 19.01C4.5 19.5395 4.68902 19.9471 5.03088 20.206C5.34586 20.4445 5.72096 20.5026 5.99902 20.5098ZM19.878 17.5273C19.8774 17.5275 19.8778 17.5274 19.8787 17.5271L19.878 17.5273ZM19 16.51H19.5V16.01V4.01001V3.51001H19H17H16.5V4.01001V10.201L15.2236 9.5628L15 9.45099L14.7764 9.5628L13.5 10.201V4.01001V3.51001H13H6V3.50983L5.98667 3.51019C5.71326 3.51748 5.34118 3.57589 5.02806 3.81467C4.68873 4.07344 4.5 4.4803 4.5 5.01001V16.01V16.51H5H19Z"
+                      stroke="#222222" stroke-opacity="0.6"/>
+            </svg>
+            Сервисы
+        </button>
+        <button class="footer__btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.75 18.5H10.5L5.5 21V18.5H2V3.5H22V9" stroke="#222222" stroke-opacity="0.6" stroke-width="2"
+                      stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M6 10.5H12M14.5 12.6C14.5 12.0665 18 11 18 11C18 11 21.5 12.0665 21.5 12.6C21.5 16.8665 18 19 18 19C18 19 14.5 16.8665 14.5 12.6ZM6 7.5H9H6Z"
+                      stroke="#222222" stroke-opacity="0.6" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round"/>
+            </svg>
+            Обращения
+        </button>
+        <button class="footer__btn">
+            <svg width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.80694 2.46922L8.97394 2.11746C10.2964 1.71882 11.7094 2.36305 12.2758 3.62288L13.1775 5.6286C13.6602 6.70244 13.4058 7.96444 12.5448 8.76739L11.0505 10.1608C11.0068 10.2016 10.9791 10.2566 10.9725 10.3159C10.9281 10.7131 11.1974 11.4865 11.8176 12.5608C12.2687 13.3421 12.6769 13.8899 13.0244 14.1981C13.2665 14.4128 13.3998 14.4592 13.4565 14.4423L15.4669 13.8277C16.5925 13.4835 17.8123 13.8939 18.501 14.8484L19.7817 16.6234C20.5878 17.7406 20.4428 19.2819 19.4426 20.2292L18.5562 21.0686C17.5998 21.9744 16.2382 22.3119 14.9695 21.9578C12.2154 21.189 9.74608 18.8649 7.53421 15.0338C5.31926 11.1974 4.54207 7.893 5.25852 5.12121C5.58639 3.85273 6.55252 2.84734 7.80694 2.46922ZM8.23984 3.9054C7.48719 4.13227 6.90751 4.7355 6.71079 5.49659C6.10814 7.82811 6.797 10.757 8.83325 14.2838C10.8668 17.806 13.0557 19.8663 15.3727 20.513C16.134 20.7255 16.9509 20.523 17.5248 19.9795L18.4111 19.1401C18.8658 18.7095 18.9317 18.0089 18.5653 17.5011L17.2846 15.7261C16.9715 15.2922 16.417 15.1057 15.9054 15.2621L13.8901 15.8783C12.7204 16.227 11.6587 15.2855 10.5186 13.3108C9.75029 11.9801 9.3922 10.9514 9.48177 10.1494C9.52817 9.734 9.72174 9.3489 10.0275 9.06381L11.5218 7.67036C11.9132 7.30538 12.0288 6.73174 11.8094 6.24364L10.9077 4.23792C10.6503 3.66527 10.008 3.37243 9.40684 3.55363L8.23984 3.9054Z"
+                      fill="#222222" fill-opacity="0.6"/>
+            </svg>
+            Звонок
+        </button>
+        <button class="footer__btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.783 2.826L12 1L20.217 2.826C20.4391 2.87536 20.6377 2.99897 20.78 3.1764C20.9224 3.35384 21 3.57452 21 3.802V13.789C20.9999 14.7767 20.756 15.7492 20.2899 16.62C19.8238 17.4908 19.1499 18.2331 18.328 18.781L12 23L5.672 18.781C4.85027 18.2332 4.17646 17.4911 3.71035 16.6205C3.24424 15.7498 3.00024 14.7776 3 13.79V3.802C3.00004 3.57452 3.07764 3.35384 3.21999 3.1764C3.36234 2.99897 3.56094 2.87536 3.783 2.826ZM5 4.604V13.789C5.00001 14.4475 5.16257 15.0957 5.47326 15.6763C5.78395 16.2568 6.23315 16.7517 6.781 17.117L12 20.597L17.219 17.117C17.7667 16.7518 18.2158 16.2571 18.5265 15.6767C18.8372 15.0964 18.9998 14.4483 19 13.79V4.604L12 3.05L5 4.604ZM12 11C11.337 11 10.7011 10.7366 10.2322 10.2678C9.76339 9.79893 9.5 9.16304 9.5 8.5C9.5 7.83696 9.76339 7.20107 10.2322 6.73223C10.7011 6.26339 11.337 6 12 6C12.663 6 13.2989 6.26339 13.7678 6.73223C14.2366 7.20107 14.5 7.83696 14.5 8.5C14.5 9.16304 14.2366 9.79893 13.7678 10.2678C13.2989 10.7366 12.663 11 12 11ZM7.527 16C7.64822 14.8984 8.17168 13.8803 8.99708 13.1407C9.82248 12.4012 10.8918 11.9922 12 11.9922C13.1082 11.9922 14.1775 12.4012 15.0029 13.1407C15.8283 13.8803 16.3518 14.8984 16.473 16H7.527Z"
+                      fill="#222222" fill-opacity="0.6"/>
+            </svg>
+            Профиль
+        </button>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script type="module" src="/src/situations/_situations.js"></script>
+<script type="module" src="/src/header/_header.js"></script>
+</body>
+</html>

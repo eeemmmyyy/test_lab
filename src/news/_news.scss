@@ -1,0 +1,48 @@
+.news {
+  margin-top: 7px;
+
+  &__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__head-title {
+
+  }
+
+  &__head-a {
+    color: $primary-color;
+    text-decoration: none;
+  }
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  &__card {
+    border-radius: $secondary-border-radius;
+    background: $secondary-background-color;
+    padding: 12px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  &__title, &__paragraph {
+    margin: 0;
+  }
+
+  &__date {
+    margin-top: 4px;
+  }
+}

@@ -1,0 +1,47 @@
+.consultation {
+  margin-top: 24px;
+
+  &__inner {
+    border: 2px solid $border-color;
+    background: $tertiary-background-color;
+    padding: 24px 16.5px;
+    border-radius: $secondary-border-radius;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  &__rect {
+    background: $quaternary-background-color;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 123px;
+    border-radius: $quaternary-border-radius;
+  }
+
+  &__img {
+    position: absolute;
+    top: -34px;
+  }
+
+  &__title, &__paragraph {
+    margin: 0;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  &__btn {
+    background: $btn-background-color;
+    border-radius: $primary-border-radius;
+    width: 100%;
+    border: none;
+    padding: 14px 0;
+    color: $secondary-text-color;
+    cursor: pointer;
+  }
+}

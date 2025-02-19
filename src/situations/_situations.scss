@@ -1,0 +1,31 @@
+.situations {
+
+  &__container {
+    overflow: hidden;
+    height: 80px;
+  }
+
+  &__head-title {
+
+  }
+
+  &__slider {
+    margin-left: 20px !important;
+  }
+
+  &__slide {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: $tertiary-border-radius;
+    background-repeat: no-repeat;
+    width: 120px !important;
+    padding: 6px;
+    margin: 0;
+  }
+
+  &__title, &__paragraph{
+    margin: 0;
+    color: $secondary-text-color;
+  }
+}

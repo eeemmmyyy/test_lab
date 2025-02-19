@@ -1,0 +1,23 @@
+.services {
+  margin-top: 20px;
+
+  &__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  &__title, &__paragraph {
+    margin: 0;
+  }
+
+  &__service {
+    border-radius: $secondary-border-radius;
+    background: $secondary-background-color;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+}
