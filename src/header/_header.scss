@@ -40,16 +40,19 @@
     overflow-y: auto;
     z-index: 2;
   }
+  
   &__suggestions ul {
     list-style: none;
     padding: 0;
     margin: 0;
   }
+
   &__suggestions li {
     padding: 10px;
     cursor: pointer;
     list-style-type: none;
   }
+
   &__suggestions li:hover {
     background-color: $secondary-background-color;
   }

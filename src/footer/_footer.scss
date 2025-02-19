@@ -1,7 +1,8 @@
 .footer {
   margin-top: 73px;
-
-  &__inner {
+  bottom: 0;
+  position: fixed;
+    &__inner {
     display: flex;
     gap: 8px;
     padding: 8px 12px;
